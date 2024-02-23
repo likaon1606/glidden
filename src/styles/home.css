@@ -1,0 +1,71 @@
+.parrafo h1,
+.parrafo p,
+.video-down h1,
+.video-down p,
+.video-down button {
+  color: white;
+}
+.video-down button,
+.parrafo button {
+  border-radius: 30px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.container-video {
+  position: relative;
+  background: #e52c2e;
+}
+.video {
+  width: 100%;
+  z-index: 0;
+}
+.parrafo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: start;
+  width: 50%;
+  height: auto;
+  z-index: 2;
+}
+.parrafo h1 {
+  font-size: 79px;
+}
+.parrafo p {
+  font-size: 33px;
+}
+.parrafo button {
+  font-size: 16px;
+  background: transparent;
+  border: solid 2px #e52c2e;
+  color: white;
+}
+.parrafo button:hover {
+  background: #e52c2e;
+  transition: 0.3s;
+}
+
+.video-down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #e52c2e;
+}
+.video-down h1 {
+  font-size: 50px;
+}
+.video-down p {
+  font-size: 16px;
+}
+.video-down button {
+  font-size: 16px;
+  border: solid 2px white;
+  background: transparent;
+}
+.video-down button:hover {
+  background: gray;
+  border: solid 2px gray;
+  transition: 0.3s;
+}
